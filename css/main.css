@@ -1,0 +1,176 @@
+/**** GLOBAL STYLES****/
+
+body {
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.content-wrapper {
+    width: 90%;
+    margin: 0px auto;
+}
+
+/***** HEADER STYLES ****/
+
+header {
+    background-color: #1f2937;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h3 {
+    color: #f9faf8;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero p {
+    color: #e5e7eb;
+    margin-top: 0px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.header-bottom .hero {
+    width: 40%;
+}
+
+.header-bottom button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 8%;
+    padding: 8px 18px;
+}
+
+.header-bottom .placeholder {
+    width: 50%;
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+/**** FOOTER STYLES ****/
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+/**** INFO STYLES ****/
+
+.information .content-wrapper {
+    width: 80%;
+}
+
+.information h2 {
+    text-align: center;
+    font-weight: 900;
+    margin: 40px;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 100px;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item figure {
+    height: 175px;
+    width: 175px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.item p {
+    width: 175px;
+    margin: 0px;
+    text-align: center;
+}
+
+/**** QUOTE STYLES ****/
+
+.quote .content-wrapper {
+    width: 80%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.quote h2 {
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.quote p {
+    align-self: flex-end;
+    font-weight: 900;
+    margin: 0px;
+}
+
+/**** SIGN UP STYLES ****/
+
+
+
+
+
+
