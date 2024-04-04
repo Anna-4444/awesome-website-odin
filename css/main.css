@@ -74,8 +74,8 @@ nav a {
     background-color: #3882f6;
     color: white;
     border: none;
-    border-radius: 8%;
-    padding: 8px 18px;
+    border-radius: 4px;
+    padding: 4px 24px;
 }
 
 .header-bottom .placeholder {
@@ -169,8 +169,36 @@ footer {
 
 /**** SIGN UP STYLES ****/
 
+.sign-up .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
 
+.sign-up .blue-box {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
 
+.action h3,
+.action p {
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.sign-up button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-radius: 4px;
+    padding: 4px 25px;
+    align-self: center;
+}
 
 
 
